@@ -11,7 +11,7 @@ logging.basicConfig(
     level=logging.INFO,
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler("payment_notifier.log", encoding="utf-8")
+        logging.FileHandler("/home/ubuntu/payment_notifier_errors.log", encoding="utf-8")
     ]
 )
 logger = logging.getLogger(__name__)

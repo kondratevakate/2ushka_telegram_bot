@@ -23,14 +23,14 @@ logging.basicConfig(
     level=logging.INFO,
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler("bot_errors.log", encoding="utf-8")
+        logging.FileHandler("/home/ubuntu/bot_errors.log", encoding="utf-8")
     ]
 )
 logger = logging.getLogger(__name__)
 
 BOT_TOKEN = "7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA"
 ADMIN_CHAT_ID = -1002453479330  # ID админ-чата
-FOLDER_PATH = "."
+FOLDER_PATH = "/home/ubuntu"
 LOG_FILE = f"{FOLDER_PATH}/client_interactions.csv"
 GUIDE_PAYMENT_LINK = "https://web.tribute.tg/p/9yV"
 GUIDE_STARS_LINK = "https://t.me/tribute/app?startapp=p9yV"

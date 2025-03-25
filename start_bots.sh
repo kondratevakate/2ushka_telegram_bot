@@ -4,7 +4,7 @@
 source /home/ubuntu/telega_env/bin/activate
 
 # Запускаем основной бот в фоновом режиме
-nohup python /home/ubuntu/2ushka_telegram_bot/bot.py > /home/ubuntu/2ushka_telegram_bot/bot.log 2>&1 &
+nohup python /home/ubuntu/2ushka_telegram_bot/bot.py > /home/ubuntu/2ushka_telegram_bot/bot1.log 2>&1 &
 echo "Основной бот запущен с PID $!"
 
 # Запускаем мониторинг покупок в фоновом режиме

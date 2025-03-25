@@ -1,0 +1,8 @@
+2025-03-25 10:04:33,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 10:04:42,824 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 409 Conflict"
+2025-03-25 10:04:52,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 409 Conflict"
+2025-03-25 10:05:03,262 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 409 Conflict"
+2025-03-25 10:05:12,065 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 409 Conflict"
+2025-03-25 10:05:22,661 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 409 Conflict"
+2025-03-25 10:05:35,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 409 Conflict"
+2025-03-25 10:05:52,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 409 Conflict"

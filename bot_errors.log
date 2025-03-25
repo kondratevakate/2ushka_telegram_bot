@@ -1,0 +1,55 @@
+2025-03-25 09:30:24,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getMe "HTTP/1.1 200 OK"
+2025-03-25 09:30:24,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-25 09:30:24,962 - telegram.ext.Application - INFO - Application started
+2025-03-25 09:30:35,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 09:30:35,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 09:30:35,776 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/sendMessage "HTTP/1.1 200 OK"
+2025-03-25 09:30:37,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 09:30:37,570 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-03-25 09:30:37,728 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/editMessageText "HTTP/1.1 200 OK"
+2025-03-25 09:30:37,928 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/sendMessage "HTTP/1.1 200 OK"
+2025-03-25 09:30:39,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 09:30:39,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/sendMessage "HTTP/1.1 200 OK"
+2025-03-25 09:30:39,787 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/sendMessage "HTTP/1.1 200 OK"
+2025-03-25 09:30:42,384 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 09:30:42,525 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-03-25 09:30:42,526 - __main__ - ERROR - Ошибка при обработке обновления:
+Traceback (most recent call last):
+  File "/home/ubuntu/telega_env/lib/python3.12/site-packages/telegram/ext/_application.py", line 1325, in process_update
+    await coroutine
+  File "/home/ubuntu/telega_env/lib/python3.12/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/2ushka_telegram_bot/bot.py", line 122, in tariff_details
+    photo=open(os.path.join(os.getcwd(), f"2ushka_telegram_bot/viz/{tariff_key}.jpg"), "rb"),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/2ushka_telegram_bot/2ushka_telegram_bot/viz/guide.jpg'
+2025-03-25 09:30:45,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 09:30:45,588 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-03-25 09:30:45,589 - __main__ - ERROR - Ошибка при обработке обновления:
+Traceback (most recent call last):
+  File "/home/ubuntu/telega_env/lib/python3.12/site-packages/telegram/ext/_application.py", line 1325, in process_update
+    await coroutine
+  File "/home/ubuntu/telega_env/lib/python3.12/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/2ushka_telegram_bot/bot.py", line 122, in tariff_details
+    photo=open(os.path.join(os.getcwd(), f"2ushka_telegram_bot/viz/{tariff_key}.jpg"), "rb"),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/2ushka_telegram_bot/2ushka_telegram_bot/viz/guide.jpg'
+2025-03-25 09:30:48,580 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 09:30:48,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-03-25 09:30:48,711 - __main__ - ERROR - Ошибка при обработке обновления:
+Traceback (most recent call last):
+  File "/home/ubuntu/telega_env/lib/python3.12/site-packages/telegram/ext/_application.py", line 1325, in process_update
+    await coroutine
+  File "/home/ubuntu/telega_env/lib/python3.12/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/2ushka_telegram_bot/bot.py", line 122, in tariff_details
+    photo=open(os.path.join(os.getcwd(), f"2ushka_telegram_bot/viz/{tariff_key}.jpg"), "rb"),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/2ushka_telegram_bot/2ushka_telegram_bot/viz/concierge.jpg'
+2025-03-25 09:30:50,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7809849560:AAHPQF54KnIzWMvj09KBJ9tTCkBjWuUktyA/getUpdates "HTTP/1.1 200 OK"
+2025-03-25 09:30:50,129 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-03-25 09:30:50,130 - telegram.ext.Application - INFO - Application.stop() complete
