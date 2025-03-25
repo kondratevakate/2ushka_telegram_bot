@@ -231,6 +231,7 @@ async def receive_text(update: Update, context: CallbackContext) -> None:
         user = update.effective_user.username or "Не указано"
         user_id = update.effective_user.id
         log_action(user, user_id, f"Provided email for request ({request_type}): {email}")
+        await notify_admin(context, f"Пользователь @{user} (ID: {user_id}) оставил email: {email}")
         if request_type == "purchase_update":
             await update.message.reply_text("Спасибо, ваш email записан.", reply_markup=MAIN_MENU)
         else:
@@ -245,6 +246,10 @@ async def receive_text(update: Update, context: CallbackContext) -> None:
         await notify_admin(context, f"Пользователь @{user} (ID: {user_id}) задал вопрос:\n\n{question}")
         await update.message.reply_text("Ваш вопрос отправлен администратору. Мы свяжемся с вами в течение рабочего дня.", reply_markup=MAIN_MENU)
         context.user_data["waiting_for_question"] = False
+        return
+
+    # Если не обрабатывается email или вопрос, отправляем сообщение о неизвестной команде
+    await update.message.reply_text("Извините, я не понимаю эту команду. Используйте меню для навигации.", reply_markup=MAIN_MENU)
 
 # --- Callback handler for inline buttons: Back to menu ---
 async def back_to_menu_callback(update: Update, context: CallbackContext) -> None:
